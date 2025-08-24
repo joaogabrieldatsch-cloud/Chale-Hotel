@@ -6,12 +6,12 @@
 
 body {
     font-family: Helvetica, "Trebuchet MS",  sans-serif;
-    background: #fff url(../chalé/Imagens/bg.png);
+    background: #fff url(Imagens/bg.png);
     margin: 15px;
 }
 
 #container {
-    background: #ede9cc url(../chalé/Imagens/bg-container.png) top center repeat-y;
+    background: #ede9cc url(Imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -26,7 +26,7 @@ body {
 
 #area-logo {
     position: absolute;
-    background: url(../chalé/Imagens/topo-imagem-principal.png) no-repeat;
+    background: url(Imagens/topo-imagem-principal.png) no-repeat;
     width: 100%;
     height: 250px;
     top: 0;
@@ -39,7 +39,7 @@ body {
     top: 15px;
     left: 15px;
     z-index: 3;
-    background: url(../chalé/Imagens/logo.png) no-repeat;
+    background: url(Imagens/logo.png) no-repeat;
     width: 151px;
     height: 66px;
     text-indent: -9000px;
@@ -49,7 +49,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    background: url(../chalé/Imagens/topo-imagem-lateral.png) no-repeat;
+    background: url(Imagens/topo-imagem-lateral.png) no-repeat;
     width: 450px;
     height: 250px;
     z-index: 2;
@@ -122,14 +122,14 @@ ul#navegacao a:hover {
 #area-principal {
     float: left;
     width: 50%;
-    background: url(../chalé/Imagens/bg-area-principal.png) top left repeat-x;
+    background: url(Imagens/bg-area-principal.png) top left repeat-x;
     padding: 15px 0px;
 }
 
 #area-lateral {
     float: right;
     width: 50%;
-    background: url(../chalé/Imagens/bg-area-lateral.png) top left repeat-x;
+    background: url(Imagens/bg-area-lateral.png) top left repeat-x;
     padding: 20px 0px;
 }
 
@@ -141,7 +141,7 @@ ul#navegacao a:hover {
 #rodape {
     clear: both;
     padding: 16px;
-    background: #fff url(../chalé/Imagens/bg-rodape.png) repeat-x top;
+    background: #fff url(Imagens/bg-rodape.png) repeat-x top;
     color: #7d7640;
 }
 
@@ -178,10 +178,11 @@ p {
     font-size: 1em;
     color: #615b2d;
     padding: 5px 0;
-    background: url(../chalé/Imagens/ornamento.png) no-repeat center right;
+    background: url(Imagens/ornamento.png) no-repeat center right;
 }
 
 #beneficios li:hover {
     background: #f6f3d6;
     cursor: pointer;
 }
+
